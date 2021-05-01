@@ -8,7 +8,7 @@ The moment of inertia of a shape about an axis of rotation is equals to the inte
 
 $$ \iiint \rho (x,y,z) \, \| \mathbf{r} (x,y,z) \|^2 \, \mathrm{d}V $$
 
-Consider a cylinder of radius \\( R \\) and length \\( L \\) with its main axis (i.e. axis of rotational symmetry) aligned with the \\( x \\) axis on a right-hand coordinate system where \\( y \\) points up.
+Consider a cylinder of radius \\( R \\) and length \\( L \\) centered at the origin with its main axis (i.e. axis of rotational symmetry) aligned with the \\( x \\) axis on a right-hand coordinate system where \\( y \\) points up.
 
 ![Cylinder](/assets/img/Cylinder.svg)
 
