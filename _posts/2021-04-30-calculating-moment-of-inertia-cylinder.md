@@ -10,7 +10,7 @@ $$ \iiint \rho (x,y,z) \, \| \mathbf{r} (x,y,z) \|^2 \, \mathrm{d}V $$
 
 Consider a cylinder of radius \\( R \\) and length \\( L \\) with its main axis (i.e. axis of rotational symmetry) aligned with the \\( x \\) axis on a right-hand coordinate system where \\( y \\) points up.
 
-![Cylinder](assets/img/cylinder.png)
+![Cylinder](assets/img/Cylinder.svg)
 
 The density \\( \rho \\) is assumed to be constant.
 

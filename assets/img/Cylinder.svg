@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="802px" height="602px" viewBox="0 0 802 602" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>Main</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Main" transform="translate(1.000000, 1.000000)">
+            <rect id="Background" stroke="#FFFFFF" fill="#FFFFFF" x="0" y="0" width="800" height="600"></rect>
+            <g id="Cyl" transform="translate(384.500000, 299.000000) scale(-1, 1) translate(-384.500000, -299.000000) translate(140.000000, 108.000000)">
+                <path id="Line-3" d="M57.2253767,173.316493 L65.6114943,178.877341 L62.143,180.87 L107.908026,260.500858 L108.157168,260.934365 L107.290154,261.432649 L107.041012,260.999142 L61.276,181.368 L57.8083688,183.361896 L57.2253767,173.316493 Z" fill="#4A90E2" fill-rule="nonzero"></path>
+                <line x1="58.0408203" y1="173.250595" x2="298.974519" y2="34.25" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></line>
+                <line x1="159.591474" y1="348.228056" x2="400.525172" y2="209.227461" id="Line-Copy" stroke="#979797" stroke-width="2" stroke-linecap="square"></line>
+                <path d="M158.230962,348.718566 C189.319983,330.769311 191.912993,277.057555 164.022613,228.75 C136.132233,180.442445 88.3199826,155.83218 57.2309621,173.781434 C26.1419416,191.730689 23.548931,245.442445 51.4393109,293.75 C79.3296907,342.057555 127.141942,366.66782 158.230962,348.718566 Z" id="Oval" stroke="#979797" stroke-width="2"></path>
+                <path d="M402.474519,207.718566 C433.563539,189.769311 436.15655,136.057555 408.26617,87.75 C380.37579,39.442445 332.563539,14.8321798 301.474519,32.7814342" id="Oval-Copy-2" stroke="#979797" stroke-width="2"></path>
+                <path d="M299.718075,33.7814342 C268.629055,51.7306886 266.036044,105.442445 293.926424,153.75 C321.816804,202.057555 369.629055,226.66782 400.718075,208.718566" id="Oval-Copy-3" stroke="#979797" stroke-width="2" stroke-dasharray="9"></path>
+                <line x1="107.730962" y1="260.75" x2="244.562976" y2="339.75" id="Line-4" stroke="#979797" stroke-linecap="square" stroke-dasharray="5"></line>
+                <line x1="350.936043" y1="121.75" x2="487.768057" y2="200.75" id="Line-4-Copy-2" stroke="#979797" stroke-linecap="square" stroke-dasharray="5"></line>
+                <line x1="230.558512" y1="191.25" x2="350.936043" y2="121.75" id="Line-4-Copy" stroke="#979797" stroke-width="2" stroke-linecap="square" stroke-dasharray="5"></line>
+                <path id="Line-2-Copy-3" d="M362.212322,268.816987 L362.712322,269.683013 L362.27931,269.933013 L250.995,334.183 L252.995045,337.647114 L242.950817,338.25 L248.495045,329.852886 L250.495,333.316 L361.77931,269.066987 L362.212322,268.816987 Z" fill="#8B572A" fill-rule="nonzero"></path>
+                <path id="Line-2-Copy-4" d="M483.730272,199.25 L478.186043,207.647114 L476.186,204.183 L364.901778,268.433013 L364.468766,268.683013 L363.968766,267.816987 L364.401778,267.566987 L475.686,203.316 L473.686043,199.852886 L483.730272,199.25 Z" fill="#8B572A" fill-rule="nonzero"></path>
+            </g>
+            <text id="z" font-family="TimesNewRomanPS-ItalicMT, Times New Roman" font-size="36" font-style="italic" font-weight="normal" fill="#000000">
+                <tspan x="186.995117" y="423">z</tspan>
+            </text>
+            <text id="x" font-family="TimesNewRomanPS-ItalicMT, Times New Roman" font-size="36" font-style="italic" font-weight="normal" fill="#000000">
+                <tspan x="597.010742" y="423">x</tspan>
+            </text>
+            <text id="y" font-family="TimesNewRomanPS-ItalicMT, Times New Roman" font-size="36" font-style="italic" font-weight="normal" fill="#000000">
+                <tspan x="392.010742" y="57">y</tspan>
+            </text>
+            <path id="Line-2" d="M400,78 L407,92 L401,92 L401,301 L399,301 L399,92 L393,92 L400,78 Z" fill="#4A4A4A" fill-rule="nonzero"></path>
+            <path id="Line-2-Copy" d="M399.633975,298.633975 L400.5,299.133975 L580.633,403.133 L583.633284,397.937822 L592.25764,411 L576.633284,410.062178 L579.633,404.866 L399.5,300.866025 L398.633975,300.366025 L399.633975,298.633975 Z" fill="#4A4A4A" fill-rule="nonzero"></path>
+            <path id="Line-2-Copy-2" d="M400.366025,298.633975 L401.366025,300.366025 L400.5,300.866025 L220.366,404.866 L223.366716,410.062178 L207.74236,411 L216.366716,397.937822 L219.366,403.133 L399.5,299.133975 L400.366025,298.633975 Z" fill="#4A4A4A" fill-rule="nonzero"></path>
+            <text id="R" stroke="#FFFFFF" stroke-width="7" fill="#D8D8D8" font-family="TimesNewRomanPS-ItalicMT, Times New Roman" font-size="36" font-style="italic" font-weight="normal">
+                <tspan x="528.504883" y="327">R</tspan>
+            </text>
+            <text id="R-Copy" font-family="TimesNewRomanPS-ItalicMT, Times New Roman" font-size="36" font-style="italic" font-weight="normal" fill="#4A90E2">
+                <tspan x="528.504883" y="327">R</tspan>
+            </text>
+            <text id="L" stroke="#FFFFFF" stroke-width="7" font-family="TimesNewRomanPS-ItalicMT, Times New Roman" font-size="36" font-style="italic" font-weight="normal" fill="#8B572A">
+                <tspan x="307.989258" y="409.5">L</tspan>
+            </text>
+            <text id="L-Copy" font-family="TimesNewRomanPS-ItalicMT, Times New Roman" font-size="36" font-style="italic" font-weight="normal" fill="#8B572A">
+                <tspan x="307.989258" y="409.5">L</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
