@@ -1,4 +1,8 @@
-# Calculating the Moment of Inertia of a Cylinder
+---
+layout: post
+title: Calculating the Moment of Inertia of a Cylinder
+tags: [moment of inertia]
+---
 
 The moment of inertia of a shape about an axis of rotation is equals to the integral of the density $\rho$ times the squared distance of each point $\mathbf{p}$ from the axis over the entire volume of the shape.
 
