@@ -4,7 +4,7 @@ title: Calculating the Moment of Inertia of a Cylinder
 tags: [moment of inertia]
 ---
 
-The moment of inertia of a shape about an axis of rotation is equals to the integral of the density $\rho$ times the squared distance of each point \\( \mathbf{p} \\) from the axis over the entire volume of the shape. Let \\( \mathbf{r} \\) be the vector connecting \\( \mathbf{p} \\) to its closest point on the axis of rotation, then
+The moment of inertia of a shape about an axis of rotation is equals to the integral of the density \\( \rho \\) times the squared distance of each point \\( \mathbf{p} \\) from the axis over the entire volume of the shape. Let \\( \mathbf{r} \\) be the vector connecting \\( \mathbf{p} \\) to its closest point on the axis of rotation, then
 
 $$ \iiint \rho (x,y,z) \, \| \mathbf{r} (x,y,z) \|^2 \, \mathrm{d}V $$
 
@@ -12,13 +12,17 @@ Consider a cylinder of radius \\( R \\) and length \\( L \\) with its main axis 
 
 ![Cylinder](assets/img/cylinder.png)
 
-The density $\rho$ is assumed to be constant.
+The density \\( \rho \\) is assumed to be constant.
 
 A point on the volume of this cylinder in the three-dimensional Euclidean space can be described in cylindrical coordinates:
 
 $$ \mathbf{p}(r,\theta,\ell) = (p_x, p_y, p_z) = (\ell,r \sin \theta, r \cos \theta) $$
 
-The moment of inertia along its \\( x \\) axis is:
+The squared length of the vector connecting \\( p \\) to its closest point on the axis of rotation \\( x \\) is
+
+$$ \| \mathbf{r} \|^2 = p_y^2 + p_z^2 $$
+
+Thus, the moment of inertia along the \\( x \\) axis is:
 
 $$ I_{xx} = \rho \int _{-{\frac {L}{2}}}^{\frac {L}{2}} \int _{0}^{2\pi} \int _{0}^{R} \left( p_y^2 + p_z^2 \right) \, r \, \mathrm{d}r \, \mathrm{d}\theta \, \mathrm{d}\ell $$
 
