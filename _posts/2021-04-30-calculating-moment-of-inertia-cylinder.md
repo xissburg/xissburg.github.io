@@ -18,7 +18,7 @@ A point on the volume of this cylinder in the three-dimensional Euclidean space 
 
 $$ \mathbf{p}(r,\theta,\ell) = (p_x, p_y, p_z) = (\ell,r \sin \theta, r \cos \theta) $$
 
-The squared length of the vector connecting \\( p \\) to its closest point on the axis of rotation \\( x \\) is
+The squared length of the vector connecting \\( \mathbf{p} \\) to its closest point on the axis of rotation \\( x \\) is
 
 $$ \| \mathbf{r} \|^2 = p_y^2 + p_z^2 $$
 
@@ -56,7 +56,7 @@ $$  \rho \, \frac {\pi R^4}{2} \left( \frac {L}{2} + {\frac {L}{2}} \right) $$
 
 $$ \rho \, \frac {\pi R^4 L}{2} $$
 
-The volume of the cylinder is
+The volume of the cylinder is the area of its base \\( \pi R^2 \\) times its length \\( L \\)
 
 $$ V = \pi R^2 L $$
 
@@ -118,6 +118,6 @@ $$ \rho \pi R^2 L \frac{L^2 + 3 R^2}{12} $$
 
 Finally, using our knowledge about the cylinder volume and mass from above
 
-$$ I_{zz} = \frac{M}{12} \left( L^2 + 3 R^2 \right) $$
+$$ I_{zz} = I_{yy} = \frac{M}{12} \left( L^2 + 3 R^2 \right) $$
 
 And we're done. I hope it was clear.
