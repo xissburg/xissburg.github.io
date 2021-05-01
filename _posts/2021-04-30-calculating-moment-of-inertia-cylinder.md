@@ -86,7 +86,7 @@ $$ \rho \int _{-\frac {L}{2}}^{\frac{L}{2}} \int _{0}^{2\pi} \left. \frac {\ell^
 
 $$ \rho \int _{-\frac {L}{2}}^{\frac{L}{2}} \int _{0}^{2\pi} \frac{\ell^2 R^2}{2} + \frac{R^4}{4} \sin^2 \! \theta \, \mathrm{d}\theta \, \mathrm{d}\ell $$
 
-The integral of \\( \sin^2 \! \theta \\) is (from [Wikipedia](https://en.wikipedia.org/wiki/List_of_integrals_of_trigonometric_functions#Integrands_involving_only_sine))
+The integral of \\( \sin^2 \\! \theta \\) is (from [Wikipedia](https://en.wikipedia.org/wiki/List_of_integrals_of_trigonometric_functions#Integrands_involving_only_sine))
 
 $$ \int \sin^2 \! \theta \, \mathrm{d}\theta = \frac{\theta}{2} - \frac{1}{4} \sin 2 \theta $$
 
@@ -99,8 +99,6 @@ $$ \rho \int _{-\frac {L}{2}}^{\frac{L}{2}} \frac{2 \pi R^2 \ell^2}{2} + \frac{R
 Given that \\( \sin 4 \pi = 0 \\), we continue like so
 
 $$ \rho \int _{-\frac {L}{2}}^{\frac{L}{2}} \pi R^2 \ell^2 + \frac{\pi R^4}{4} \, \mathrm{d}\ell $$
-
-$$ \rho \left( \left. \pi R^2 \ell^2 + \frac{\pi R^4}{4} \right|_{-\frac {L}{2}}^{\frac{L}{2}} \right) $$
 
 $$ \rho \left( \left. \frac{\pi R^2 \ell^3}{3} + \frac{\pi R^4 \ell}{4} \right|_{-\frac {L}{2}}^{\frac{L}{2}} \right) $$
 
