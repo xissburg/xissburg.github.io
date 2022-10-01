@@ -136,6 +136,6 @@ The [centroid of a hemisphere](https://xissburg.github.com/2021-05-01-calculatin
 
 $$ I_{zz} = I_{zz0} - Md^2 $$
 
-$$ I_{zz} = \frac {2}{5} M R^2 - M \left( \frac{3}{8} R \right)^2 = \left( \frac {2}{5} - \frac{9}{64} \right) M R^2 $$
+$$ I_{zz} = \frac {2}{5} M R^2 - M \left( \frac{3}{8} R \right)^2 = \left( \frac {2}{5} - \frac{9}{64} \right) M R^2 = \frac{173}{320} M R^2 $$
 
 With this formula, the moment of inertia of a capsule will be derived in the next article.
