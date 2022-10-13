@@ -4,9 +4,9 @@ title: Intersecting Line Against Cylinder
 tags: [intersection, line, segment, cylinder]
 ---
 
-Consider a cylinder with radius \( r \) and length \( \ell \) whose axis contains points \( \mathbf{q}_0 \) and \( \mathbf{q}_1 \). Let \( \mathbf{L}(t) = \mathbf{p}_0 + t (\mathbf{p}_1 - \mathbf{p}_0) \) be a line passing through points \( \mathbf{p}_0 \) and \( \mathbf{p}_1 \). Through the calculation of closest points between \( \mathbf{L} \) and the cylinder axis, the value of \( t \) for the closest point on \( \mathbf{L} \) is obtained. If the distance between the closest points is smaller than the cylinder radius, a value \( \delta \) can be added to and subtracted from \( t \) to find the intersection points \( \mathbf{i}_0 = \mathbf{L}(t - \delta) \) and \( \mathbf{i}_1 = \mathbf{L}(t + \delta) \) on the surface of the cylinder.
+Consider a cylinder with radius \( r \) and length \( \ell \) whose axis contains points \( \mathbf{q}_0 \) and \( \mathbf{q}_1 \). Let \( \mathbf{L}(t) = \mathbf{p}_0 + t (\mathbf{p}_1 - \mathbf{p}_0) \) be a line passing through points \( \mathbf{p}_0 \) and \( \mathbf{p}_1 \), and \( \mathbf{c}_L = \mathbf{p}_0 + t_c (\mathbf{p}_1 - \mathbf{p}_0) \) be the point in \( \mathbf{L} \) closest to the cylinder axis and \( \mathbf{c}_c \) the point in the cylinder axis closest to \( \mathbf{L} \). If the distance \( f \) between the closest points is smaller than the cylinder radius, a value \( \delta \) can be added to and subtracted from \( t_c \) to find the intersection points \( \mathbf{i}_0 = \mathbf{L}(t_c - \delta) \) and \( \mathbf{i}_1 = \mathbf{L}(t_c + \delta) \) on the surface of the cylinder.
 
-![Cylinder line intersection](/assets/img/Cylinder.svg)
+![Cylinder line intersection](/assets/img/CylinderLineIntersection.svg)
 
 The line and the vector orthogonal to the line and the cylinder axis (i.e. their cross product) define a plane which cuts the cylinder, defining an ellipse as their intersection. The length of the semi-minor axis of this ellipse is \( r \), and the length of the semi-major axis is \( s \), which is unknown.
 
@@ -46,7 +46,7 @@ $$ = \frac{r^2 (\mathbf{d} \cdot \mathbf{d}) \, (\mathbf{e} \cdot \mathbf{e})} {
 
 $$ = \frac{(\mathbf{d} \cdot \mathbf{d}) \, (\mathbf{e} \cdot \mathbf{e}) (r^2 - f^2)} {(\mathbf{d} \cdot \mathbf{d}) \, (\mathbf{e} \cdot \mathbf{e}) - \left( \mathbf{d} \cdot \mathbf{e} \right)^2} $$
 
-The value of \( g \) is a a measure of length, while \( \delta \) is a fraction of the length of \( \mathbf{d} \), thus to obtain \( \delta \), \( g \) must be divided by the length of \( \mathbf{d} \).
+The value of \( g \) is a measure of length, while \( \delta \) is a fraction of the length of \( \mathbf{d} \). To obtain \( \delta \), \( g \) must be divided by the length of \( \mathbf{d} \).
 
 $$ \delta = \frac{g}{\| \mathbf{d} \|}$$
 
@@ -56,4 +56,4 @@ $$ \delta^2 = \frac{(\mathbf{d} \cdot \mathbf{d}) \, (\mathbf{e} \cdot \mathbf{e
 
 $$ \delta^2 = \frac{(\mathbf{e} \cdot \mathbf{e}) (r^2 - f^2)} {(\mathbf{d} \cdot \mathbf{d}) \, (\mathbf{e} \cdot \mathbf{e}) - \left( \mathbf{d} \cdot \mathbf{e} \right)^2} $$
 
-Now the first and second intersection points \( \mathbf{i}_0 \) and \( \mathbf{i}_1 \) can be calculated.
+Now the first and second intersection points \( \mathbf{i}_0 \) and \( \mathbf{i}_1 \) can be calculated using \( \delta \).

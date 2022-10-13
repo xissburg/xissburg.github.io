@@ -94,9 +94,9 @@ $$ \rho \int _{0}^{2\pi} \int _{0}^{\frac{\pi}{2}} \left. \frac {r^5}{5} \left( 
 
 $$ \rho \frac {R^5}{5} \int _{0}^{2\pi} \int _{0}^{\frac{\pi}{2}} \cos^2 \! \theta \sin^3 \! \varphi + \cos^2 \! \varphi \sin \! \varphi \, \mathrm{d}\varphi \, \mathrm{d}\theta $$
 
-The integral of \\( \cos^2 \! \varphi \sin^2 \! \varphi \\) is (again from [Wikipedia](https://en.wikipedia.org/wiki/List_of_integrals_of_trigonometric_functions#Integrands_involving_only_sine))
+The integral of \\( \cos^2 \! \varphi \sin \! \varphi \\) is (again from [Wikipedia](https://en.wikipedia.org/wiki/List_of_integrals_of_trigonometric_functions#Integrands_involving_only_sine))
 
-$$ \int \cos^2 \! \varphi \sin^2 \! \varphi \, \mathrm{d}\varphi = - \frac {\cos^3 \! \varphi}{3} \! $$
+$$ \int \cos^2 \! \varphi \sin \! \varphi \, \mathrm{d}\varphi = - \frac {\cos^3 \! \varphi}{3} \! $$
 
 Thus
 
