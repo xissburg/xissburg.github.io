@@ -32,7 +32,7 @@ $$ \rho \int _{0}^{2\pi} \int _{0}^{\frac{\pi}{2}} \int _{0}^{R} r^2 \sin^2 \! \
 
 $$ \rho \int _{0}^{2\pi} \int _{0}^{\frac{\pi}{2}} \int _{0}^{R} r^4 \sin^3 \! \varphi \left( \cos^2 \! \theta + \sin^2 \! \theta \right) \, \mathrm{d}r \, \mathrm{d}\varphi \, \mathrm{d}\theta $$
 
-Applying the identity \\( \cos^2 \! \theta + \sin^2 \! \theta = 1 \\)
+Applying the identity \\( \cos^2 \\! \theta + \sin^2 \\! \theta = 1 \\)
 
 $$ \rho \int _{0}^{2\pi} \int _{0}^{\frac{\pi}{2}} \int _{0}^{R} r^4 \sin^3 \! \varphi \, \mathrm{d}r \, \mathrm{d}\varphi \, \mathrm{d}\theta $$
 
@@ -40,7 +40,7 @@ $$ \rho \int _{0}^{2\pi} \int _{0}^{\frac{\pi}{2}} \left. \frac {r^5}{5} \sin^3 
 
 $$ \rho \frac {R^5}{5} \int _{0}^{2\pi} \int _{0}^{\frac{\pi}{2}} \sin^3 \! \varphi \, \mathrm{d}\varphi \, \mathrm{d}\theta $$
 
-The integral of \\( \sin^3 \! \varphi \\) is (from [Wikipedia](https://en.wikipedia.org/wiki/List_of_integrals_of_trigonometric_functions#Integrands_involving_only_sine))
+The integral of \\( \sin^3 \\! \varphi \\) is (from [Wikipedia](https://en.wikipedia.org/wiki/List_of_integrals_of_trigonometric_functions#Integrands_involving_only_sine))
 
 $$ \int \sin^3 \! \varphi \, \mathrm{d}\varphi = \frac {\cos 3\varphi}{12} - \frac{3 \cos \varphi}{4} $$
 
@@ -94,7 +94,7 @@ $$ \rho \int _{0}^{2\pi} \int _{0}^{\frac{\pi}{2}} \left. \frac {r^5}{5} \left( 
 
 $$ \rho \frac {R^5}{5} \int _{0}^{2\pi} \int _{0}^{\frac{\pi}{2}} \cos^2 \! \theta \sin^3 \! \varphi + \cos^2 \! \varphi \sin \! \varphi \, \mathrm{d}\varphi \, \mathrm{d}\theta $$
 
-The integral of \\( \cos^2 \! \varphi \sin \! \varphi \\) is (again from [Wikipedia](https://en.wikipedia.org/wiki/List_of_integrals_of_trigonometric_functions#Integrands_involving_only_sine))
+The integral of \\( \cos^2 \\! \varphi \sin \\! \varphi \\) is (again from [Wikipedia](https://en.wikipedia.org/wiki/List_of_integrals_of_trigonometric_functions#Integrands_involving_only_sine))
 
 $$ \int \cos^2 \! \varphi \sin \! \varphi \, \mathrm{d}\varphi = - \frac {\cos^3 \! \varphi}{3} \! $$
 
