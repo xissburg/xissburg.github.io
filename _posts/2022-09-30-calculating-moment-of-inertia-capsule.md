@@ -1,3 +1,9 @@
+---
+layout: post
+title: Calculating the Moment of Inertia of a Capsule
+tags: [moment of inertia, capsule]
+---
+
 A capsule can be decomposed into a cylinder and two hemispheres, where each hemisphere sits on a cylinder cap. The moment of inertia of a capsule can be calculated as a composition of the [moment of inertia of a cylinder](https://xissburg.github.io/2021-04-30-calculating-moment-of-inertia-cylinder) and the [moment of inertia of a hemisphere](https://xissburg.github.io/2022-09-30-calculating-moment-of-inertia-hemisphere).
 
 Consider a capsule of radius \( R \) and cylindrical length \( L \) centered at the origin with its main axis (i.e. axis of rotational symmetry) aligned with the \( x \) axis on a right-hand coordinate system where \( y \) points up. The total length of the capsule is \( L + 2R \) and its mass is \( M \).
